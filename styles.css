@@ -3,3 +3,71 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: grid;
+  grid-template-rows: 50px calc(100vh - 50px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0 50px;
+}
+
+header > img {
+  display: block;
+  margin-top: 50px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main {
+  background-color: #fefcf0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="search"] {
+  width: 75%;
+  height: 50px;
+  margin-left: 75px;
+  border-radius: 50px;
+  top: 50%;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main > p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.busqueda {
+  display: flex;
+  gap: 5px;
+  width: min(750px, 100%);
+}
+
+input[type="submit"] {
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+  background-color: brown;
+  color: white;
+}
