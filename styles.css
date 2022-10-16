@@ -70,4 +70,34 @@ input[type="submit"] {
   width: 100px;
   background-color: brown;
   color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.email > input {
+  width: 100%;
+}
+
+textarea {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+.contactanos {
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 10px;
 }
