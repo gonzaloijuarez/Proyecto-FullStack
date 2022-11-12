@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,10 +12,12 @@ body {
 header {
   background-color: black;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 header #menu {
   padding: 50px 50px 0 50px;
+  display: flex;
 }
 
 header #menu ul {
@@ -45,12 +48,15 @@ header #menu ul li a:hover {
 #main-container > img {
   position: absolute;
   right: 100px;
-  top: 150px;
+  top: 125px;
 }
 
 #main-container main {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
-  width: 1400px;
+  width: 100%;
+  padding: 0 0 0 100px;
 }
 
 #main-container main div {
@@ -58,13 +64,19 @@ header #menu ul li a:hover {
   vertical-align: middle;
 }
 
+/* #main-container main img {
+  width: 100%;
+} */
+
 #main-container main .text h1 {
   font-size: 80px;
+  width: 100%;
 }
 
-#main-container main .text p {
+button {
   font-size: 20px;
   padding: 20px 0;
+  width: 25%;
 }
 
 button {
@@ -82,6 +94,10 @@ button:hover {
   background-color: orangered;
 }
 
+button a {
+  text-decoration: none;
+}
+
 footer {
   text-align: center;
 }
@@ -93,3 +109,37 @@ footer {
 }
 
 /****************************************** */
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 600px) {
+  #main-container > img {
+    right: 0;
+    width: 100%;
+    top: 150px;
+  }
+  header #menu {
+    padding: 0;
+    margin-bottom: 75px;
+  }
+
+  #main-container main .text h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+  #main-container main img {
+    width: 100%;
+  }
+  #main-container main {
+    padding: 0;
+  }
+  #main-container main .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #main-container main button {
+    width: 50%;
+    align-self: center;
+  }
+}
