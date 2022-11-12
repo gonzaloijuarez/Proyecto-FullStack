@@ -1,90 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-header{
-    background-image: url(../img/fondo2.png);
-    height: 100vh;
-
+header {
+  background-image: url(../img/fondo2.png);
 }
 
-#main-container header #menu{
-    padding: 50px;
+#main-container header #menu {
+  padding: 50px;
 }
 
-header #menu ul{
-    margin: 0;
-    padding: 0;
+header #menu ul {
+  margin: 0;
+  padding: 0;
 }
 
-header #menu ul li{
-    display: inline-block;
-    padding: 10px;
-    vertical-align: top;
+header #menu ul li {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
 }
-header #menu ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-header #menu ul li a:hover{
-    text-decoration: underline;
+header #menu ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-/****************************************** */
-
-#main-container header main{
-    margin: 0 auto;
-    width: 1400px;
-}
-
-#main-container header main div{
-    display:inline-block;
-    vertical-align: middle;
-}
-
-#main-container header main
-.text h1{
-    font-size:80px;
-}
-
-#main-container header main .text p{
-    font-size: 20px;
-    padding: 20px 0;
-}
-
-button{
-    background-color:red;
-    border: 0;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    font-size: 24px;
-    padding: 20px 25px;
-    margin: 40px 0;
-    
-}
-
-button:hover{
-    background-color: orangered;
-    
-}
-
-footer{
-    text-align: center;
+header #menu ul li a:hover {
+  text-decoration: underline;
 }
 
 /****************************************** */
 
-.container{
-    padding: 30px 20px;
+#main-container main {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+#main-container main div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#main-container main .text h1 {
+  font-size: 80px;
+}
+
+#main-container main .text p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+button {
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 20px 25px;
+  margin: 40px 0;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+footer {
+  text-align: center;
 }
 
 /****************************************** */
 
+.container {
+  padding: 30px 20px;
+}
+
+/****************************************** */
