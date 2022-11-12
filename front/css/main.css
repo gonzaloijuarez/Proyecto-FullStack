@@ -9,11 +9,12 @@ body {
 }
 
 header {
-  background-image: url(../img/fondo2.png);
+  background-color: black;
+  margin-bottom: 50px;
 }
 
-#main-container header #menu {
-  padding: 50px;
+header #menu {
+  padding: 50px 50px 0 50px;
 }
 
 header #menu ul {
@@ -36,6 +37,16 @@ header #menu ul li a:hover {
 }
 
 /****************************************** */
+
+#main-container {
+  position: relative;
+}
+
+#main-container > img {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+}
 
 #main-container main {
   margin: 0 auto;
