@@ -1,5 +1,5 @@
-Repositorio para el proyecto final de full stack
-ISPC Desarrollo Web y App's Digitales - Cohorte 2022
+Repositorio para el proyecto final de full stack.
+ISPC Desarrollo Web y App's Digitales - Cohorte 2022.
 
 Proyecto Integrador GRUPO N° 65 - Cordobares - TUTOR: Carlos Charletti -
 
@@ -11,11 +11,11 @@ Resumen de nuestra idea de proyecto de plataforma web para un negocio inmobiliar
 - Generar un contacto con dueños de bares.
 
 INTEGRANTES:
-Sofia, Del mar Ferrarotti B.
-Alicia Beatriz, Romanzini
-Jorgelina, Baez
-Matias Leonel, Villaro
-Gonzalo Ignacio, Juarez Linares
-Maximiliano, Fernández
-Martin ivan, Ledezma
-Julián, Donamaría
+- Sofia, Del mar Ferrarotti B.
+- Alicia Beatriz, Romanzini
+- Jorgelina, Baez
+- Matias Leonel, Villaro
+- Gonzalo Ignacio, Juarez Linares
+- Maximiliano, Fernández
+- Martin ivan, Ledezma
+- Julián, Donamaría
