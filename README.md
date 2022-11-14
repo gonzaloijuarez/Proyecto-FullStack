@@ -3,7 +3,7 @@ ISPC Desarrollo Web y App's Digitales - Cohorte 2022.
 
 Proyecto Integrador GRUPO N° 65 - Cordobares - TUTOR: Carlos Charletti -
 
-Resumen de nuestra idea de proyecto de plataforma web para un negocio inmobiliario:
+Resumen de nuestra idea de proyecto de plataforma web para bares:
 
 - Ofrecer datos sobre los bares de córdoba.
 - Información actualizada acerca de novedades de nuevos bares .
