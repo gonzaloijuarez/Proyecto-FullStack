@@ -16,7 +16,7 @@ header {
 }
 
 header #menu {
-  padding: 50px 50px 0 50px;
+  padding: 10px 50px 0 50px;
   display: flex;
 }
 
@@ -47,8 +47,9 @@ header #menu ul li a:hover {
 
 #main-container > img {
   position: absolute;
-  right: 100px;
-  top: 125px;
+  width: 40%;
+  right: 45px;
+  top: 50px;
 }
 
 #main-container main {
@@ -111,11 +112,10 @@ footer {
 /****************************************** */
 /*RESPONSIVE*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #main-container > img {
-    right: 0;
-    width: 100%;
-    top: 150px;
+    visibility: hidden;
+
   }
   header #menu {
     padding: 0;

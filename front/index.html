@@ -1,56 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cordobares</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+  </head>
 
+  <body>
     <div id="main-container">
-        <img src="./img/dibujos.png" alt="Dibujos">
-        <header>
-            <div id="menu">
-                    <a href="#">
-                        <img src="img/logo2.png" alt="logo" width="170"/>
-                    </a>
-                <ul>
-                    <li><a href="index.html">Home</a> </li>
-                    <li><a href="acerca.html">Acerca de</a> </li>
-                    <li><a href="registrate.html">Registrate</a></li>
-                    <li><a href="contacto.html">Contacto</a> </li>
-                </ul>
+      <img src="./img/dibujos.png" alt="Dibujos" />
+      <header>
+        <div id="menu">
+          <a href="./contacto.html">
+            <img src="img/logo2.png" alt="logo" width="170" />
+          </a>
+        </div>
+
+        <!-- Barra de navegación receptiva-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+          <div class="container">
+            <!-- <a class="navbar-brand" href="#!">Start Bootstrap</a> -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./acerca.html">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./registrate.html">Registrate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-
-            
-        </header>
-        <main>
-            <div class="text">
-                <h1>CORDOBARES</h1>
-                <h2>La aplicación sobre bares de la ciudad de Córdoba</h2>
-                <p>Aquí encontrarás info y comentarios de otros<br> usuarios
-                como así también podrás aportar los<br> tuyos. </p>
-
-                <button><a href="acerca.html" style="color:white" >Inicio</button>
-
-
-            </div>
-            <div class="image">
-                <img src="img/celular.png" alt="celular" width="450" >
-            </div>
-        </main>
-        
-        </div>    
-    </div>        
-       
-    
-
-
-        <footer>
-            copyright grupo 65
-        </footer>
-    
-</body>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="text">
+            <h1>CORDOBARES</h1>
+            <h2>La aplicación sobre bares de la ciudad de Córdoba</h2>
+            <p>Aquí encontrarás info y comentarios de otros<br> usuarios
+                como así también podrás aportar los<br> tuyos. 
+            </p>
+        </div>
+        <div class="image">
+            <img src="img/celular.png" alt="celular" width="650">
+        </div>
+      </main>
+    </div>
+    <!-- Pie de página-->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; creado por Grupo 65 -Cordobares- 2022
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

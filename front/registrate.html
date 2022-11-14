@@ -1,91 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrate</title>
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- JavaScript Bundle with Popper -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <title>Cordobares</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
 </head>
+
 <body>
+
     <div id="main-container">
+        <img src="./img/dibujos.png" alt="Dibujos">
         <header>
             <div id="menu">
-                <ul>
-                    <li id="logo" >
-                        <a href="#">
-                            <img src="img/logo2.png" width="170"/>
-
-                    </a>
-                </li>
-
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="acerca.html">Acerca de</a> </li>
-                <li><a href="registrate.html">Registrate</a></li>
-                <li><a href="contacto.html">Contacto</a> </li>
-                </ul>
+                <a href="./contacto.html">
+                    <img src="img/logo2.png" alt="logo" width="170" />
+                </a>
             </div>
+
+            <!-- Barra de navegación receptiva-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                <div class="container">
+                    <!-- <a class="navbar-brand" href="#!">Start Bootstrap</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./acerca.html">Acerca de</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="./registrate.html">Registrate</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
         </header>
-     <div class="container" >
-        <form class="row g-3 mt-3">
+        <div class="container">
+            <form class="row g-3 mt-3">
 
-            <div class="col-6">
-                <label for="emailInput" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
-                
-            </div>
-             
-            <div class="col-6">
-                <label for="inputPass" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="inputPass" placeholder="Escribe tu contraseña">
-            </div>
-            
+                <div class="col-6">
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
 
-            <div class="col-12">
-                <label for="inputAddress" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
-            </div>
-            
+                </div>
 
-            <div class="col-6">
-                <label for="cityInput" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
-            </div>
-            
-
-            <div class="col-3">
-                <label for="postalCodeInput" class="form-label">Código Postal</label>
-                <input type="text" class="form-control" id="postalCodeInput" placeholder="código postal">
-            </div>
-            
-
-            <div class="col-3">
-                <label for="countryInput" class="form-label">País</label>
-                <input type="text" class="form-control" id="countryInput" placeholder="País">
-            </div>
-            
-
-            <div class="col-12">
-                 <div class="form-check">
-                     <input type="checkbox" id="checkTerms" class="form-check-input">
-                     <label for="checkTerms" class="form-check-label" ><br>Acepto los Términos</label>
-                 </div>
-            </div>
-
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Registrate</button>
-            </div>
+                <div class="col-6">
+                    <label for="inputPass" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPass" placeholder="Escribe tu contraseña">
+                </div>
 
 
-        </form>
-        
-       
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+                </div>
+
+
+                <div class="col-6">
+                    <label for="cityInput" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
+                </div>
+
+
+                <div class="col-3">
+                    <label for="postalCodeInput" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control" id="postalCodeInput" placeholder="código postal">
+                </div>
+
+
+                <div class="col-3">
+                    <label for="countryInput" class="form-label">País</label>
+                    <input type="text" class="form-control" id="countryInput" placeholder="País">
+                </div>
+
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input type="checkbox" id="checkTerms" class="form-check-input">
+                        <label for="checkTerms" class="form-check-label"><br>Acepto los Términos</label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-danger">Registrate</button>
+                </div>
+
+
+            </form>
+        </div>
     </div>
-    
+
+    <!-- Pie de página-->
+    <footer class="py-5 bg-black">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+                Copyright &copy; creado por Grupo 65 -Cordobares- 2022
+            </p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
 </body>
-<footer></footer>
+
 </html>
