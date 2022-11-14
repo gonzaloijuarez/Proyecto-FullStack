@@ -7,8 +7,9 @@
     <title>Registrate</title>
     <link rel="stylesheet" href="css/main.css">
     
-    <link rel="bootstrap.min.css" rel="stylesheet">
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
 </head>
 <body>
     <div id="main-container">
@@ -30,25 +31,61 @@
             </div>
         </header>
      <div class="container" >
-        
         <form class="row g-3 mt-3">
-            <div class="col-6">
-                <label for="emailinput" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu email">
 
-            </div>
-            <br>
             <div class="col-6">
-                <label for="inputpass" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="inputpass" placeholder="contraseña">
+                <label for="emailInput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                
+            </div>
+             
+            <div class="col-6">
+                <label for="inputPass" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputPass" placeholder="Escribe tu contraseña">
+            </div>
+            
+
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
+            </div>
+            
+
+            <div class="col-6">
+                <label for="cityInput" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
+            </div>
+            
+
+            <div class="col-3">
+                <label for="postalCodeInput" class="form-label">Código Postal</label>
+                <input type="text" class="form-control" id="postalCodeInput" placeholder="código postal">
+            </div>
+            
+
+            <div class="col-3">
+                <label for="countryInput" class="form-label">País</label>
+                <input type="text" class="form-control" id="countryInput" placeholder="País">
+            </div>
+            
+
+            <div class="col-12">
+                 <div class="form-check">
+                     <input type="checkbox" id="checkTerms" class="form-check-input">
+                     <label for="checkTerms" class="form-check-label" ><br>Acepto los Términos</label>
+                 </div>
             </div>
 
-            <p>
-                <button>enviar</button>
-            </p>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Registrate</button>
+            </div>
+
 
         </form>
+        
+       
     </div>
     
 </body>
+<footer></footer>
 </html>
