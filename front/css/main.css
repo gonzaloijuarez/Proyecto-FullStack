@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+header {
+  background-color: black;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+header #menu {
+  padding: 50px 50px 0 50px;
+  display: flex;
+}
+
+header #menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+header #menu ul li {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+header #menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header #menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/****************************************** */
+
+#main-container {
+  position: relative;
+}
+
+#main-container > img {
+  position: absolute;
+  right: 100px;
+  top: 125px;
+}
+
+#main-container main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 0 0 100px;
+}
+
+#main-container main div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* #main-container main img {
+  width: 100%;
+} */
+
+#main-container main .text h1 {
+  font-size: 80px;
+  width: 100%;
+}
+
+button {
+  font-size: 20px;
+  padding: 20px 0;
+  width: 25%;
+}
+
+button {
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 20px 25px;
+  margin: 40px 0;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+button a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+/****************************************** */
+
+.container {
+  padding: 30px 20px;
+}
+
+/****************************************** */
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 600px) {
+  #main-container > img {
+    right: 0;
+    width: 100%;
+    top: 150px;
+  }
+  header #menu {
+    padding: 0;
+    margin-bottom: 75px;
+  }
+
+  #main-container main .text h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+  #main-container main img {
+    width: 100%;
+  }
+  #main-container main {
+    padding: 0;
+  }
+  #main-container main .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #main-container main button {
+    width: 50%;
+    align-self: center;
+  }
+}
